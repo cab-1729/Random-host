@@ -9,6 +9,8 @@ You can play around with Markdown on our [live demo page](http://www.markdown-he
 [Headers][headers]  
 [Emphasis][emphasis]  
 [Lists][lists]  
+[Task Lists][task lists]  
+[Definition Lists][definition lists]  
 [Links][links]  
 [Images][images]  
 [Code and Syntax Highlighting][code and syntax highlighting]  
@@ -62,6 +64,8 @@ Strong emphasis, aka bold, with **asterisks** or __underscores__.
 Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
+
+Superscript uses with ^carets^ and subscript with ~tildes~.
 ```
 
 Emphasis, aka italics, with *asterisks* or _underscores_.
@@ -71,6 +75,8 @@ Strong emphasis, aka bold, with **asterisks** or __underscores__.
 Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
+
+Superscript uses with ^carets^ and subscript with ~tildes~.
 
 ## Lists
 
@@ -111,6 +117,56 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
+
+## Task Lists
+
+To create a task list, preface list items with a hyphen and space followed by ```[ ]```. To mark a task as complete, use ```[x]```.
+
+```
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [x] Comet Haley
+```
+
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [x] Comet Haley
+
+This is how task lists are created.
+
+## Definition Lists
+
+Some Markdown processors allow you to create definition lists of terms and their corresponding definitions. To create a definition list, type the term on the first line. On the next line, type a colon followed by a space and the definition.
+
+```
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+```
+
+Rendered output looks like this:
+
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
 
 ## Links
 
